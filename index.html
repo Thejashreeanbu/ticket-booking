@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ticket Booking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Ticket Booking System</h2>
+
+    <input type="text" id="name" placeholder="Passenger Name">
+    
+    <select id="destination">
+        <option value="">Select Destination</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Hyderabad">Hyderabad</option>
+    </select>
+
+    <input type="number" id="tickets" placeholder="Number of Tickets">
+
+    <button onclick="bookTicket()">Book Ticket</button>
+
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
